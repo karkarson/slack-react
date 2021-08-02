@@ -16,4 +16,4 @@
 6. npx sequelize db:seed:all
 7. npm run dev (데이블 데이터 생성, localhost:3095
 
-Issues 탭에 전체적인 프로젝트 설명 있습니다.
+Issues 탭에 간략한 프로젝트 사진 설명 있습니다.
