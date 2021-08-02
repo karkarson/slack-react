@@ -1,3 +1,11 @@
+## 기술스택
+1. React
+2. SWR
+3. Socket.io
+4. Emotion
+5. TypeScript
+6. Webpack+Babel
+
 ## 실행방법
 
 1. npm i
