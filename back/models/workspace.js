@@ -5,7 +5,7 @@ module.exports = class Workspace extends Model {
   static init(sequelize) {
     return super.init(
       {
-        // id가 기본적으로 들어있다.
+        // id
         name: {
           type: DataTypes.STRING(30), // STRING, TEXT, BOOLEAN, INTEGER, FLOAT, DATETIME
           allowNull: false, // 필수

@@ -4,7 +4,7 @@ const { Model } = DataTypes;
 module.exports = class ChannelChat extends Model {
   static init(sequelize) {
     return super.init({
-      // id가 기본적으로 들어있다.
+      // id
       content: {
         type: DataTypes.TEXT, // STRING, TEXT, BOOLEAN, INTEGER, FLOAT, DATETIME
         allowNull: false, // 필수

@@ -5,7 +5,7 @@ module.exports = class WorkspaceMember extends Model {
   static init(sequelize) {
     return super.init(
       {
-        // id가 기본적으로 들어있다.
+        // id
         loggedInAt: {
           type: DataTypes.DATE,
           defaultValue: DataTypes.NOW,
