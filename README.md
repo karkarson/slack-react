@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 Issues 탭에 간략한 프로젝트 기능 캡쳐있습니다.
 제가 한 부분은 front 폴더 입니다.
+=======
+>>>>>>> 7e136ac8604eb1345fe62be1604de0ec5c5fa3a0
 ## 기술스택
 1. React
 2. SWR
@@ -7,6 +10,11 @@ Issues 탭에 간략한 프로젝트 기능 캡쳐있습니다.
 4. Emotion
 5. TypeScript
 6. Webpack+Babel
+<<<<<<< HEAD
+=======
+
+## 실행방법
+>>>>>>> 7e136ac8604eb1345fe62be1604de0ec5c5fa3a0
 
 ## 실행방법
 1. npm i
@@ -15,6 +23,7 @@ Issues 탭에 간략한 프로젝트 기능 캡쳐있습니다.
 4. npx sequelize db:create(스키마 생성)
 5. npm run dev (테이블 row 생성)
 6. npx sequelize db:seed:all
+<<<<<<< HEAD
 7. npm run dev (데이블 데이터 생성, localhost:3095)
 ```text
 p@Login - page폴더 Login
@@ -45,3 +54,8 @@ front(코드 흐름)
 │      │        └─ c@ChatBox
 
 ```
+=======
+7. npm run dev (데이블 데이터 생성, localhost:3095
+
+Issues 탭에 간략한 프로젝트 사진 설명 있습니다.
+>>>>>>> 7e136ac8604eb1345fe62be1604de0ec5c5fa3a0
