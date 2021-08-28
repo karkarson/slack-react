@@ -8,7 +8,7 @@ import useSWR from 'swr';
 import Modal from '@components/Modal';
 import useInput from '@hooks/useInput';
 import { Button, Input, Label } from '@pages/SignUp/styles';
-import { IChannel, IUser } from '@typings/db';
+import { IUser } from '@typings/db';
 import fetcher from '@utils/fetcher';
 
 interface Props {
@@ -23,7 +23,7 @@ const InviteWorkspaceModal: FC<Props> = ({ show, onCloseModal, setShowInviteWork
   const { workspace } = useParams<{ workspace: string; channel: string }>();
   const [newMember, onChangeNewMember, setNewMember] = useInput('');
   const { data: userData } = useSWR<IUser>('/api/users', fetcher);
-  const { revalidate: revalidateMember } = useSWR<IChannel[]>(
+  const { revalidate: revalidateMember } = useSWR<IUser[]>(
     userData ? `/api/workspaces/${workspace}/members` : null, fetcher );
 
   const onInviteMember = useCallback((e) => {
